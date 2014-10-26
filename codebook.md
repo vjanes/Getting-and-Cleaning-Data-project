@@ -12,6 +12,7 @@ Data was averaged both by subjects and by activity.
 Rows with a numeric value in the group column are relative to subject, number being subject id for experiment.
 Rows with a text value in the group column are relative to activties and are self-explaining.
 Mixing activities and subjects in the same column was ruled as an assignment requirement.
+Both group are exclusive other the same data sample.
 
 ##Feature Selection
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
@@ -26,7 +27,7 @@ Variables were treated by mean and standard deviation.
 
 Then those means and standard deviations averaged (mean function) aggregated by experiment subjects and activities respectively (subjects and activities are two subdivisions of the same sample).
 
-Measurement where:
+###Measurements :
 
 tBodyAcc-XYZ; 
 tGravityAcc-XYZ ;
@@ -46,9 +47,10 @@ fBodyAccJerkMag ;
 fBodyGyroMag ;
 fBodyGyroJerkMag ;
 
+###Variables :
 The set of variables that were estimated from these signals are:
 mean(): Mean value
 std(): Standard deviation
 
-The data in the "tidy1" table is THE AVERAGE OF THOSE DATA.
+The data in the "tidy1" table is THE AVERAGE OF THOSE DATA over relevant aggregation group.
 
