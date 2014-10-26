@@ -28,23 +28,23 @@ Then those means and standard deviations averaged (mean function) aggregated by 
 
 Measurement where:
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+*tBodyAcc-XYZ 
+*tGravityAcc-XYZ 
+tBodyAccJerk-XYZ 
+tBodyGyro-XYZ 
+tBodyGyroJerk-XYZ 
+tBodyAccMag 
+tGravityAccMag 
+tBodyAccJerkMag 
+tBodyGyroMag 
+tBodyGyroJerkMag 
+fBodyAcc-XYZ 
+fBodyAccJerk-XYZ 
+fBodyGyro-XYZ 
+fBodyAccMag 
+fBodyAccJerkMag 
+fBodyGyroMag 
+fBodyGyroJerkMag 
 
 The set of variables that were estimated from these signals are:
 mean(): Mean value
