@@ -28,8 +28,8 @@ Then those means and standard deviations averaged (mean function) aggregated by 
 
 Measurement where:
 
-*tBodyAcc-XYZ 
-*tGravityAcc-XYZ 
+tBodyAcc-XYZ 
+tGravityAcc-XYZ 
 tBodyAccJerk-XYZ 
 tBodyGyro-XYZ 
 tBodyGyroJerk-XYZ 
