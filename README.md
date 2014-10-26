@@ -35,8 +35,8 @@ I reformated data to safeguard origin file and line placement in two rows ("line
 #####PART1: Merging files
 Line position and file origin having been safeguarded I was able to easily concatenate "Xtest" and "Xtrain" using rbind function in "X_all" df.
 
-#####PART2
-I elected to select all measurements having "mean()" and "sd()" string in their label.
+#####PART2: Selecting mean and sd measurement
+I elected to select all measurements having "mean()" and "sd()" string in their label, notably excluding meanFreq measurements.
 I selected those measurements using the grep function. Those measurements where saved in the "red-feature" dataframe.
 From this df I was able to create a "red-feat-cols" list that I used to select cols in "X_all" df.
 
