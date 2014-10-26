@@ -40,14 +40,14 @@ I elected to select all measurements having "mean()" and "sd()" string in their 
 I selected those measurements using the grep function. Those measurements where saved in the "red-feature" dataframe.
 From this df I was able to create a "red-feat-cols" list that I used to select cols in "X_all" df.
 
-#####PART3 Labelling activities
+#####PART3: Labelling activities
 Labelling activities was done by a simple merge between X_all and the activity table.
 
-#####PART4 Labelling variables
+#####PART4: Labelling variables
 Labelling variables was done by pushing "red-feature" labels in colnames(X_all).
 At this point tidy data was in X-all, copied in "tidy1" for clarity.
 
-#####PART5 Aggregating.
+#####PART5: Aggregating.
 Aggregating was done as required "for each activity and each subject".
 I considered aggregating by activity*subject couples (which could have be done using by=list(... ), which seemed "tidier" to me, but this wasn't the exact assignment.
 Result data is mixed in a single df/file as per assignment, which is quite untidy.
