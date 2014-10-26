@@ -1,3 +1,5 @@
+##Sorry for quick and dirty code, was in a hurry so couldn't really experiment with plyr or cleaner functions
+
 ##GETTING STARTED##################################################################
 
 ##importing and formating tables
