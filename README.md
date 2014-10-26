@@ -53,3 +53,6 @@ I considered aggregating by activity*subject couples (which could have be done u
 Result data is mixed in a single df/file as per assignment, which is quite untidy.
 Grouping data is in group column. If data is numeric grouping is per subject (number being subject id), if data is text, grouping is per activity.
 
+#####Note
+I included text file tidy.txt in the github repository, just in case.
+
